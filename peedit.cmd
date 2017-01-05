@@ -22,7 +22,7 @@ echo PE_MOUNT=%PE_MOUNT%
 goto END
 
 :copype
-copype x86 %PE_BASE%
+copype %PE_ARCH% %PE_BASE%
 md %PE_MOUNT%\windows\custom
 goto END
 
