@@ -23,7 +23,6 @@ goto END
 
 :copype
 copype %PE_ARCH% %PE_BASE%
-md %PE_MOUNT%\windows\custom
 goto END
 
 :mountimg
