@@ -112,6 +112,6 @@ echo unmount   - commit and unmount
 echo cancel    - discard and unmount
 echo makeiso   - make iso file from this pe image.
 echo makeufd   - show guide to write pe image into USB.
-goto NED
+goto END
 
 :END
