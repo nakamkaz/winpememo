@@ -70,11 +70,11 @@ goto END
 
 :adddriver
 echo JUST a guidance
-echo  Run: Dism /Add-Driver /Image:"%PE_MOUNT%" /driver:C:PATH\TO\DRIVERS  /recurse 
+echo  Run: Dism /Add-Driver /Image:"%PE_MOUNT%" /driver:C:\PATH\TO\DRIVERS  /recurse 
 goto END
 
 :getdriver
-Dism /Get-Drivers /Image:"%PE_MOUNT%"
+Dism /Get-Drivers /Image:"%PE_MOUNT%" /Format:Table
 goto END
 
 :unmount
