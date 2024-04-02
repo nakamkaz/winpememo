@@ -59,12 +59,6 @@ Dism /Add-Package /Image:"%PE_MOUNT%" /PackagePath:"%WinPERoot%\%PE_ARCH%\WinPE_
 
 Dism /Add-Package /Image:"%PE_MOUNT%" /PackagePath:"%WinPERoot%\%PE_ARCH%\WinPE_OCs\WinPE-SecureBootCmdlets.cab
 
-Dism /Add-Package /Image:"%PE_MOUNT%" /PackagePath:"%WinPERoot%\%PE_ARCH%\WinPE_OCs\WinPE-Setup.cab
-Dism /Add-Package /Image:"%PE_MOUNT%" /PackagePath:"%WinPERoot%\%PE_ARCH%\WinPE_OCs\ja-jp\WinPE-Setup_ja-jp.cab
-
-Dism /Add-Package /Image:"%PE_MOUNT%" /PackagePath:"%WinPERoot%\%PE_ARCH%\WinPE_OCs\WinPE-Setup-Client.cab
-Dism /Add-Package /Image:"%PE_MOUNT%" /PackagePath:"%WinPERoot%\%PE_ARCH%\WinPE_OCs\ja-jp\WinPE-Setup-Client_ja-jp.cab
-
 Dism /Set-AllIntl:ja-JP /Image:"%PE_MOUNT%"
 goto END
 
